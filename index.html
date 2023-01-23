@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="./assets/M.E.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <Header>
+        <div class="header" id="header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <i class="fa-solid fa-bars fa-1x"></i>
+            </button>
+            <div class="logo_header">
+                <img src="/assets/M.E.png" alt="Logo_MustEideh" max-whidth="70px" max height="70px">
+            </div>
+
+            <div class="navigation_header" id="navigation_header">
+                <button onclick="toggleSidebar()" class="btn_icon_header">
+                    <i class="fa-solid fa-x fa-1x"></i>
+                </button>
+                <a href="#home" class="active">Home</a>
+                <a href="#sobre_mim">Sobre mim</a>
+                <a href="#tecnologias">Tecnologias</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contactar">Contactar</a>
+            </div>
+        </div>
+    </Header>
+
+    <div tabindex="0" onclick="closeSidebar()" class="conteudo" id="conteudo">
+        <div class="hero">
+            <section class="presentation" id="presentation">
+                <div class="text" id="text"></div>
+                <h2>Seja bem-vindo(a) ao meu website!</h2>
+                <div class="rsocial">
+                    <a href="mailto:mustafaeideh100@hotmail.com subject=subject text"><i
+                            class="fa-regular fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/mustafa-eideh-b853581b4/"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Musta-eideh"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </section>
+        </div>
+        <div class="boxsob" id="sobre_mim">
+            <div class="contsobre">
+                    <img class="foto-perfil" src="assets/perfil.jpeg" alt="">
+            
+                <div class="sobre">
+                    <div class="titulosobre">
+                        <h3>Sobre mim</h3>
+                    </div>
+                        <p> Estudante de Ciências da Computação na <a href="https://www.google.com/maps/place/Universidade+São+Judas+Tadeu+-+Vila+Leopoldina/@-23.5251016,-46.7391831,17z/data=!3m1!4b1!4m5!3m4!1s0x94cef9e028f8bae1:0xbd760dea38684b5a!8m2!3d-23.5251016!4d-46.7369891"><strong>Universidade São Judas Tadeu</strong></a>, em busca da primeira jornada de trabalho na área de Front-End. Obtive autônomia em aprender linguagens de marcações como HTML5 e CSS3, também realizo projetos em Javascript para em planos futuros ser um desenvolvedor Full-Stack. Sobretudo gosto do trabalho em equipe e aprender mais com novas experiências. Vamos nos conhecer um pouco mais?!😊</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="boxtec" id="tecnologias">
+            <div class="titulotec">
+                <h3>Tecnologias</h3>
+            </div>
+
+            <div class="cards">
+                <div class="cardum">
+                    <i class="fa-brands fa-html5"></i>
+                    <h4>HTML5</h4>
+                    <p>A linguagem de marcação HTML5, está presente nos meus estudos desde o começo, foi por meio dela que conheci a programação e me interessei na área de desenvolvedor.
+                    </p>
+                </div>
+                <div class="carddois">
+                    <i class="fa-brands fa-css3"></i>
+                    <h4>CSS3</h4>
+                    <p>Possuo 8 meses de experiência com CSS3 e grande parte dos meus projetos eu o utilizo. Estudo grandes animações desta linguagem de marcação.</p>
+                </div>
+                <div class="cardtres">
+                    <i class="fa-brands fa-js"></i>
+                    <h4>Javascript</h4>
+                    <div class="lintres">
+                        <p>JavaScript é uma linguagem de programação da qual estudo há pouco tempo e apenas uso para aplicações em projetos de web design/mobile.</p>
+                    </div>
+                </div>
+                <div class="cardquart">
+                    <i class="fa-sharp fa-solid fa-maximize"></i>
+                    <h4>TypeScript</h4>
+                    <div class="linquart">
+                        <p>Estudo TypeScript junto ao JS para aprimorar recursos da linguagem tipada e da linguagem de programação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="projetos" id="projetos">
+            <div class="tituloproject">
+                <h3>Projetos</h3>
+            </div>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="slide first">
+                        <a href="https://musta-eideh.github.io/Habit_Tracker/
+                        "><img src="./assets/CoverHabitTracker.jpg" alt="imagem1" ></a>
+                    </div>
+
+                    <div class="slide">
+                        <img src="./assets/engineerImage.jpg" alt="imagem2">
+                    </div>
+
+                    <div class="slide">
+                        <img src="./assets/engineerImage.jpg" alt="imagem3">
+                    </div>
+
+                    <div class="slide">
+                        <img src="./assets/engineerImage.jpg" alt="imagem4">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+            <a href="https://github.com/Musta-eideh?tab=repositories"><p>Acesse aqui meus repositórios</p></a>
+        </section>
+
+        <section class="contactar" id="contactar">
+            <div class="titulocontactar">
+                <h3>Vamos trabalhar juntos?</h3>
+            </div>
+            <div class="caixacontacta">
+                <form action="" class="form" id="formulario" method="post">
+                    <p></p>
+                    <label for="nome">Nome: </label><input type="text" name="nome" id="nome">
+                    <label for="empresa">Empresa: </label><input type="text" name="empresa" id="empresa">
+                    <label for="mensagem">Mensagem: </label><textarea cols="40" wrap="hard" class="mensagem"></textarea>
+                    <button class="enviar" id="enviar">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="contacto">
+            <ul>
+                <h5>Início</h5>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre_mim">Sobre mim</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contactar">Contactar</a></li>
+            </ul>
+        </div>
+        <div class="contacto">
+            <h5>Contato</h5>
+            <ul>
+                <li><a href="">mustafaeideh100@hotmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/mustafa-eideh-b853581b4/">Linkedin</a></li>
+                <li><a href="https://github.com/Musta-eideh">GitHub</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/f8828d1870.js" crossorigin="anonymous"></script>
+    <title>Mustafa Eideh</title>
+<script src="script.js" defer></script>
+</html>
