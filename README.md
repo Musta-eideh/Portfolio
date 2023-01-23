@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-  <img alt="Capa portifólio" src="./Gallery/capa.png" width="100%">
+  <img alt="Capa portifólio" src="./assets/capa.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -24,8 +24,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Portifílio é uma galeria da qual profissionais de diversas áreas se apresentam com seus respectivos trabalhos e projetos. 
-
-- [Acesse o projeto finalizado, online]()
 
 
 
