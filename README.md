@@ -2,7 +2,7 @@
 
 # CAPA
 
-![Design](\assets\Img\PrototCap.png)
+![Design](assets\Img\PrototCapa.png)
 
 # Índice
 
@@ -21,7 +21,7 @@
 
 # DIAGRAMA
 
-![Diagrama](\assets\Img\DiagramPortfolio.jpg)
+![Diagrama](assets\Img\DiagramPortfolio.jpg)
 
 <p>O diagrama demonstra o caminho de cada seção e o que elas devem ter como componentes. No protótipo é possivel enxergar melhor como cada uma delas funciona e sua finalidade.</p>
 
