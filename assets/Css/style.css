@@ -76,3 +76,65 @@ body {
     background-color: #38AECC;
 }
 
+.sectionBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.containerInicial {
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 7rem;
+}
+
+.apresent {
+    font-family: 'Hammersmith One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.containerInicial > .apresent > p {
+    font-size: 1.4rem;
+    color: #FDFFFC;
+}
+
+span {
+    color: #FDFFFC;
+}
+
+.containerInicial > .apresent > h1 {
+    font-size: 4.2rem;
+    color: #18020c;
+}
+
+.btnInicial {
+    display: flex;
+    gap: 2rem;
+}
+
+.btnInicial > button {
+    color: #FDFFFC;
+    padding: 1.2em;
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: #38AECC;
+    border-radius: 15px;
+    border: 1px solid #18020c;
+}
+
+.btnInicial > button:hover {
+    cursor: pointer;
+    transition: 2s;
+    background-color: #124E78;
+}
+
+.elipseContainer > .memojiInicial {
+    width: 15rem;
+}
