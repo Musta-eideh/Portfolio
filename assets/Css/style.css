@@ -33,9 +33,46 @@
 
 .logo > h1 {
     font-family: 'Hammersmith One', sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .logoTitle {
     color: #38AECC;
 }
+
+footer{
+    background-color: #124E78;
+    padding: 50px;
+}
+
+.containerFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.divisorFooter{
+    height: 100px;
+    border-right: 1px solid #FDFFFC;
+}
+
+.icon{
+    color: #FDFFFC;
+    font-size: 1.5rem;
+}
+
+.containerFooter > .icon > a {
+    text-decoration: none;
+    color: #FDFFFC;
+}
+
+.loginho{
+    display: flex;
+}
+
+body { 
+    background-color: #38AECC;
+}
+
