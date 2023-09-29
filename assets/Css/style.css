@@ -259,7 +259,7 @@ h3 {
     margin-bottom: 2rem;
 }
 
-#readMore {
+#readMore, .btnProjeto {
     background-color: #124E78;
     border: 1px solid #18020c;
     border-radius: 15px;
@@ -270,7 +270,7 @@ h3 {
     transition: all 2s ease-in-out;
 }
 
-#readMore:hover {
+#readMore:hover, .btnProjeto:hover {
     transition: all 2s ease-in-out;
     background-color: #38AECC;
 }
@@ -296,4 +296,46 @@ h3 {
 
 .card.active .content::before {
     visibility: hidden;
+}
+
+/* Pojetos */
+
+.containerProjetos {
+    margin: 4em;
+    padding: 1em;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contentProjet {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentProjet > h2 {
+    color: #FDFFFC;
+    font-size: 3.5rem;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.cardProjetos {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.cardProjetoOne, .cardProjetoTwo, .cardProjetoThree {
+    display: flex;
+    flex-direction: column;
+    background-color: #124E78;
+    text-align: justify;
+    width: 300px;
+    padding: 25px;
+    color: #FDFFFC;
+    font-family: 'Inclusive Sans', sans-serif;
+    box-shadow: 10px 10px 10px rgba(0,0,0.389);
 }
