@@ -88,8 +88,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 /* home */
@@ -362,4 +361,44 @@ h3 {
 .btnProjeto:hover {
     transition: all 2s ease-in-out;
     background-color: #38AECC;
+}
+
+/* certificados & badges */
+
+.containerCertificados {
+    margin: 2em;
+    padding: 1em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.titleCertificado {
+    display: flex;
+    gap: 4rem;
+}
+
+.titleCertificado > h2 {
+    color: #FDFFFC;
+    font-size: 3.5rem;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: justify;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.containerSlider {
+    position: relative;
+    padding: 15px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.item {
+    width: 20rem;
+    height: 9rem;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
 }
