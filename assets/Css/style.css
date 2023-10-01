@@ -459,3 +459,98 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
 }
+
+/* Contato */
+
+.contatoContent {
+    margin: 4em;
+    padding: 1em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.contatoContent > h2 {
+    color: #FDFFFC;
+    font-size: 3.5rem;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.formContato {
+    background-color: #124E78;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formContato > p {
+    margin: 2em;
+    color: #FDFFFC;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.formEMemoji {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.formEMemoji > img {
+    position: absolute;
+    width: auto;
+    height: 9rem;
+    bottom: 0;
+    right: 0;
+}
+
+
+.justForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #D9D9D94D;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.justForm label {
+    display: block;
+    color: #FDFFFC;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.justForm input[type="text"],
+.justForm input[type="email"],
+.justForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #D9D9D94D;
+    border-radius: 5px;
+}
+
+.justForm button {
+    padding: 10px 20px;
+    background-color: #38AECC; 
+    color: #FDFFFC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.justForm button:hover {
+    background-color: #124E78;
+    transition: all 0.3s ease-in-out;
+}
