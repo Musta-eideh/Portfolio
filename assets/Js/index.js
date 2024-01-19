@@ -13,6 +13,16 @@ buttonSkills.addEventListener('click', function() {
     buttonSkills.textContent = 'Ler mais'
 });
 
+/**
+ * Quando a variável ButtonSkills ( Read more ) escutar um " click ", vai acionar uma função que
+ * escuta outra variável " .card ", obtendo " card.classList.toggle ", ativado. 
+ * Se " card.classList.contains('active') " esiver ativo, retornar o botão " Ler menos ".
+ * 
+ * ButtonSkills:
+ * textContect:
+ *  
+ */
+
 // Btn Slider -- Certificados & Badges
 
 const controls = document.querySelectorAll('.control');
@@ -50,3 +60,18 @@ controls.forEach(control => {
 
     })
 })
+
+// Menu Open Sidebar
+
+// Variables
+const trigger = document.querySelector('.trigger');
+const sidebar = document.querySelector('.sidebar');
+
+// Functions
+const sidebarToggle = () => {
+  trigger.classList.toggle('active');
+  sidebar.classList.toggle('show');
+};
+
+// Event Listeners
+trigger.addEventListener('click', sidebarToggle);
